@@ -61,13 +61,13 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="loginService.svc" />
+    <Content Include="LoginService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IloginService.cs" />
-    <Compile Include="loginService.svc.cs">
-      <DependentUpon>loginService.svc</DependentUpon>
+    <Compile Include="ILoginService.cs" />
+    <Compile Include="LoginService.svc.cs">
+      <DependentUpon>LoginService.svc</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

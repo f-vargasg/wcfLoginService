@@ -22,7 +22,7 @@ namespace loginServiceClient
             Console.WriteLine("Ingresar password: ");
             pass = Console.ReadLine();
 
-            if (objCliente.validateLogin (user, pass) )
+            if (objCliente.ValidateLogin (user, pass) )
             {
                 Console.WriteLine("Conexión exitosa");
             }

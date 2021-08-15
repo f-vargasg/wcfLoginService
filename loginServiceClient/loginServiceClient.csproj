@@ -55,11 +55,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Connected Services\ServiceReferenceLogin\loginService.wsdl" />
-    <None Include="Connected Services\ServiceReferenceLogin\loginService.xsd">
+    <None Include="Connected Services\ServiceReferenceLogin\LoginService.wsdl" />
+    <None Include="Connected Services\ServiceReferenceLogin\LoginService.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceReferenceLogin\loginService1.xsd">
+    <None Include="Connected Services\ServiceReferenceLogin\LoginService1.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
@@ -70,7 +70,7 @@
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceLogin\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceReferenceLogin\loginService.disco" />
+    <None Include="Connected Services\ServiceReferenceLogin\LoginService.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceReferenceLogin\configuration91.svcinfo" />

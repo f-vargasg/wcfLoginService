@@ -15,11 +15,11 @@ namespace loginServiceClient.ServiceReferenceLogin {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReferenceLogin.IloginService")]
     public interface IloginService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IloginService/validateLogin", ReplyAction="http://tempuri.org/IloginService/validateLoginResponse")]
-        bool validateLogin(string user, string pass);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IloginService/ValidateLogin", ReplyAction="http://tempuri.org/IloginService/ValidateLoginResponse")]
+        bool ValidateLogin(string user, string pass);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IloginService/validateLogin", ReplyAction="http://tempuri.org/IloginService/validateLoginResponse")]
-        System.Threading.Tasks.Task<bool> validateLoginAsync(string user, string pass);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IloginService/ValidateLogin", ReplyAction="http://tempuri.org/IloginService/ValidateLoginResponse")]
+        System.Threading.Tasks.Task<bool> ValidateLoginAsync(string user, string pass);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +49,12 @@ namespace loginServiceClient.ServiceReferenceLogin {
                 base(binding, remoteAddress) {
         }
         
-        public bool validateLogin(string user, string pass) {
-            return base.Channel.validateLogin(user, pass);
+        public bool ValidateLogin(string user, string pass) {
+            return base.Channel.ValidateLogin(user, pass);
         }
         
-        public System.Threading.Tasks.Task<bool> validateLoginAsync(string user, string pass) {
-            return base.Channel.validateLoginAsync(user, pass);
+        public System.Threading.Tasks.Task<bool> ValidateLoginAsync(string user, string pass) {
+            return base.Channel.ValidateLoginAsync(user, pass);
         }
     }
 }

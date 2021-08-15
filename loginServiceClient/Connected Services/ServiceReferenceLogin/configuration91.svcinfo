@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="O8PjDHmCpUIM3xg4mVkbrp8h+baiZ84sq3/QERkRgQY=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="AvlfJlr1r+i/WcVOVVei5OsNkHc+VB2LhGm0i/M2cxA=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IloginService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IloginService" contract="ServiceReferenceLogin.IloginService" bindingType="basicHttpBinding" address="http://localhost:61304/loginService.svc" bindingConfiguration="BasicHttpBinding_IloginService">
+    <endpoint name="BasicHttpBinding_IloginService" contract="ServiceReferenceLogin.IloginService" bindingType="basicHttpBinding" address="http://localhost:44310/LoginService.svc" bindingConfiguration="BasicHttpBinding_IloginService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:61304/loginService.svc</serializedValue>
+          <serializedValue>http://localhost:44310/LoginService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

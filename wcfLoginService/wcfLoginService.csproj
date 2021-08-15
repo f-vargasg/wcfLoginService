@@ -65,7 +65,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ILoginService.cs" />
+    <Compile Include="IloginService.cs" />
     <Compile Include="LoginService.svc.cs">
       <DependentUpon>LoginService.svc</DependentUpon>
     </Compile>
@@ -97,7 +97,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61304</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61304/</IISUrl>
+          <IISUrl>http://localhost:44310/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
